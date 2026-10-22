@@ -1,5 +1,5 @@
 import { isCron, MIN_HOURS_BETWEEN_SCANS } from '@/lib/auth';
-import { runScan } from '@/lib/runScan';
+import { runScanLogged } from '@/lib/runScan';
 import { loadLatest } from '@/lib/state';
 
 export const maxDuration = 300;
@@ -14,7 +14,7 @@ export async function GET(req: Request) {
     return Response.json({ skipped: true, reason: 'already scanned in the last 20 hours' });
   }
   try {
-    const r = await runScan();
+    const r = await runScanLogged();
     return Response.json({ ok: true, shortlist: r.shortlist.length, looked: r.looked, alerts: r.alerts, ms: r.durationMs });
   } catch (e) {
     return Response.json({ ok: false, error: (e as Error).message }, { status: 500 });

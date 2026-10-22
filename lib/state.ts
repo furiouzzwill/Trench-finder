@@ -33,6 +33,7 @@ export type SnapshotStore = Record<string, Snapshot[]>;
 const LATEST = 'state/latest.json';
 const HOLDINGS = 'state/holdings.json';
 const SNAPSHOTS = 'state/snapshots.json';
+const LAST_ERROR = 'state/last-error.json';
 
 export const loadLatest = () => readJson<ScanResult>(LATEST);
 export const loadHoldings = async () => (await readJson<Record<string, Holding>>(HOLDINGS)) ?? {};
@@ -46,6 +47,14 @@ export async function saveScan(result: ScanResult) {
 
 export const saveHoldings = (h: Record<string, Holding>) => writeJson(HOLDINGS, h);
 export const saveSnapshots = (s: SnapshotStore) => writeJson(SNAPSHOTS, s);
+
+/** Why the last scan failed, so the page can say so instead of just staying empty. */
+export interface ScanError {
+  time: number;
+  message: string;
+}
+export const loadLastError = () => readJson<ScanError>(LAST_ERROR);
+export const saveLastError = (e: ScanError) => writeJson(LAST_ERROR, e);
 
 /** The snapshot closest to `days` ago (but at least a day old). */
 export function snapshotNear(store: SnapshotStore, mint: string, now: number, days: number): Snapshot | undefined {

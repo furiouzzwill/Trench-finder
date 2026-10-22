@@ -11,6 +11,7 @@ import {
   loadLatest,
   loadSnapshots,
   saveHoldings,
+  saveLastError,
   saveScan,
   saveSnapshots,
   snapshotNear,
@@ -184,4 +185,16 @@ export async function runScan(): Promise<ScanResult> {
   }
   await Promise.all([saveScan(result), saveSnapshots(snaps), saveHoldings(latestHoldings)]);
   return result;
+}
+
+/** runScan, but a failure is saved so the page can show it. */
+export async function runScanLogged(): Promise<ScanResult> {
+  try {
+    return await runScan();
+  } catch (e) {
+    const message = (e as Error).message || String(e);
+    console.error('Scan failed:', e);
+    await saveLastError({ time: Date.now(), message }).catch((err) => console.error('Could not save the error either:', err));
+    throw e;
+  }
 }

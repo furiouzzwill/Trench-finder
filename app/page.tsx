@@ -1,7 +1,7 @@
 import { loadScanConfig } from '@/lib/scan/config';
 import { usd } from '@/lib/scan/checks';
 import type { Evaluation } from '@/lib/scan/types';
-import { loadHoldings, loadLatest, type Holding } from '@/lib/state';
+import { loadHoldings, loadLastError, loadLatest, type Holding } from '@/lib/state';
 import { MIN_HOURS_BETWEEN_SCANS } from '@/lib/auth';
 import { HoldButton, RunButton } from './components/Buttons';
 
@@ -105,7 +105,8 @@ function HeldCard({ h, e, takeOut }: { h: Holding; e: Evaluation | undefined; ta
 
 export default async function Page() {
   const cfg = loadScanConfig();
-  const [latest, holdings] = await Promise.all([loadLatest(), loadHoldings()]);
+  const [latest, holdings, lastError] = await Promise.all([loadLatest(), loadHoldings(), loadLastError()]);
+  const failedSince = lastError && (!latest || lastError.time > latest.time) ? lastError : null;
   const held = Object.values(holdings);
   const heldIds = new Set(held.map((h) => h.mint));
   const evalOf = new Map<string, Evaluation>();
@@ -133,6 +134,7 @@ export default async function Page() {
         </span>
       </div>
 
+      {failedSince && <p className="alert">The last scan failed: {failedSince.message}</p>}
       {down.length > 0 && <p className="alert">Couldn&apos;t reach {down.join(', ')} last scan. Results may be incomplete.</p>}
 
       {!latest && (

@@ -33,7 +33,7 @@ function forgetPasscode() {
   }
 }
 
-async function call(path: string, body?: unknown): Promise<{ ok: boolean; error?: string }> {
+async function call(path: string, body?: unknown): Promise<{ ok: boolean; error?: string; startedAt?: number }> {
   const send = (code: string | null) =>
     fetch(path, {
       method: 'POST',
@@ -41,16 +41,41 @@ async function call(path: string, body?: unknown): Promise<{ ok: boolean; error?
       body: body ? JSON.stringify(body) : undefined,
     });
   // Try first without asking: if no APP_PASSCODE is set in Vercel, none is needed.
-  let res = await send(savedPasscode());
-  if (res.status === 401) {
-    forgetPasscode();
-    const code = askPasscode();
-    if (!code) return { ok: false };
-    res = await send(code);
+  try {
+    let res = await send(savedPasscode());
+    if (res.status === 401) {
+      forgetPasscode();
+      const code = askPasscode();
+      if (!code) return { ok: false };
+      res = await send(code);
+    }
+    const data = (await res.json().catch(() => ({}))) as { error?: string; startedAt?: number };
+    if (res.status === 401) forgetPasscode();
+    return res.ok ? { ok: true, startedAt: data.startedAt } : { ok: false, error: data.error ?? `Error ${res.status}` };
+  } catch {
+    return { ok: false, error: 'Couldn’t reach the app. Check your connection and try again.' };
   }
-  const data = (await res.json().catch(() => ({}))) as { error?: string };
-  if (res.status === 401) forgetPasscode();
-  return res.ok ? { ok: true } : { ok: false, error: data.error ?? `Error ${res.status}` };
+}
+
+interface Status {
+  latestScan: { time: number } | null;
+  lastError: { time: number; message: string } | null;
+}
+
+/** Checks every few seconds until the background scan saves a result or an error (gives up after 5 minutes). */
+async function waitForScan(startedAt: number): Promise<{ ok: boolean; error?: string }> {
+  const until = Date.now() + 5 * 60_000;
+  while (Date.now() < until) {
+    await new Promise((r) => setTimeout(r, 5000));
+    try {
+      const s = (await (await fetch('/api/status', { cache: 'no-store' })).json()) as Status;
+      if (s.latestScan && s.latestScan.time >= startedAt) return { ok: true };
+      if (s.lastError && s.lastError.time >= startedAt) return { ok: false, error: `Scan failed: ${s.lastError.message}` };
+    } catch {
+      // phone lost connection for a moment; keep checking
+    }
+  }
+  return { ok: false, error: 'The scan is taking longer than expected. Pull down to refresh in a few minutes.' };
 }
 
 export function HoldButton({ mint, held }: { mint: string; held: boolean }) {
@@ -86,7 +111,8 @@ export function RunButton({ label }: { label: string }) {
         onClick={async () => {
           setBusy(true);
           setMsg('Scanning… this takes about a minute and a half. Keep this open.');
-          const r = await call('/api/run');
+          let r = await call('/api/run');
+          if (r.ok && r.startedAt) r = await waitForScan(r.startedAt);
           setBusy(false);
           setMsg(r.ok ? '' : r.error ?? '');
           router.refresh();
