@@ -40,6 +40,7 @@ export async function runScan(): Promise<ScanResult> {
 
   // ---- candidates ----
   const byId = new Map<string, JupToken>();
+  let lastError = '';
   if (fx) {
     for (const t of fx.tokens) byId.set(t.id, t);
   } else {
@@ -52,7 +53,6 @@ export async function runScan(): Promise<ScanResult> {
       ['toptrending', '6h'],
     ] as const;
     let failed = 0;
-    let lastError = '';
     for (const [c, i] of lists) {
       try {
         for (const t of await jup.category(c, i)) byId.set(t.id, t);
