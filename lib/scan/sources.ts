@@ -31,19 +31,37 @@ class Paced {
 }
 
 // ---------------- Jupiter Tokens API v2 ----------------
+// api.jup.ag needs a free key (JUPITER_API_KEY). Without one we use the keyless lite-api host.
 // Keyless: 0.5 requests/second. With a free key: 1/second.
 
 export class Jupiter {
   private http: Paced;
   private headers: Record<string, string> = {};
+  private hosts: string[];
 
   constructor(apiKey: string) {
     this.http = new Paced(apiKey ? 1100 : 2100);
     if (apiKey) this.headers['x-api-key'] = apiKey;
+    this.hosts = apiKey ? ['https://api.jup.ag', 'https://lite-api.jup.ag'] : ['https://lite-api.jup.ag', 'https://api.jup.ag'];
+  }
+
+  /** Tries each host in turn and sticks with the first one that answers. */
+  private async fetch<T>(pathAndQuery: string): Promise<T | null> {
+    let lastError: unknown;
+    for (const host of [...this.hosts]) {
+      try {
+        const res = await this.http.get<T>(`${host}${pathAndQuery}`, this.headers);
+        this.hosts = [host, ...this.hosts.filter((h) => h !== host)];
+        return res;
+      } catch (e) {
+        lastError = e;
+      }
+    }
+    throw lastError;
   }
 
   async category(category: 'toporganicscore' | 'toptraded' | 'toptrending', interval: '5m' | '1h' | '6h' | '24h'): Promise<JupToken[]> {
-    const res = await this.http.get<JupToken[]>(`https://api.jup.ag/tokens/v2/${category}/${interval}?limit=100`, this.headers);
+    const res = await this.fetch<JupToken[]>(`/tokens/v2/${category}/${interval}?limit=100`);
     return Array.isArray(res) ? res : [];
   }
 
@@ -52,7 +70,7 @@ export class Jupiter {
     const out: JupToken[] = [];
     for (let i = 0; i < mints.length; i += 100) {
       const q = mints.slice(i, i + 100).join(',');
-      const res = await this.http.get<JupToken[]>(`https://api.jup.ag/tokens/v2/search?query=${q}`, this.headers);
+      const res = await this.fetch<JupToken[]>(`/tokens/v2/search?query=${q}`);
       if (Array.isArray(res)) out.push(...res);
     }
     return out;

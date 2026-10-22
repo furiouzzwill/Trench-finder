@@ -52,11 +52,13 @@ export async function runScan(): Promise<ScanResult> {
       ['toptrending', '6h'],
     ] as const;
     let failed = 0;
+    let lastError = '';
     for (const [c, i] of lists) {
       try {
         for (const t of await jup.category(c, i)) byId.set(t.id, t);
-      } catch {
+      } catch (e) {
         failed++;
+        lastError = (e as Error).message;
       }
     }
     if (failed === lists.length) sources.jupiter = false;
@@ -70,7 +72,10 @@ export async function runScan(): Promise<ScanResult> {
     }
   }
   const tokens = [...byId.values()];
-  if (!tokens.length) throw new Error("No data came back from Jupiter. Their API may be down; it'll try again tomorrow.");
+  if (!tokens.length) {
+    const why = lastError ? ` (${lastError})` : '';
+    throw new Error(`No data came back from Jupiter${why}. Their API may be down, or it may need a free JUPITER_API_KEY from portal.jup.ag.`);
+  }
 
   const prevSnap = (mint: string) => snapshotNear(snaps, mint, now, cfg.trendDays);
 
