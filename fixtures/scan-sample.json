@@ -1,0 +1,1670 @@
+{
+ "tokens": [
+  {
+   "id": "EPazv15WDD955DLS2FDVYB2dzaEcLLYkNBembW23JtK8",
+   "name": "Sample Frog",
+   "symbol": "SF0",
+   "icon": null,
+   "createdAt": "2026-06-01T20:25:25.030916Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 24906,
+   "mcap": 553687.3158053719,
+   "fdv": 553687.3158053719,
+   "usdPrice": 0.0005536873158053718,
+   "liquidity": 55368.73158053719,
+   "firstPool": {
+    "id": "4PbKBRZhPt5dH7qXpk5R5TpzZnfsaKxwgvLJ9gSTLMXY",
+    "createdAt": "2026-06-01T20:25:25.030916Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 10.411950629095237,
+    "devBalancePercentage": 2.3311520236134204
+   },
+   "organicScore": 91.38816252572408,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 26.756332415856342,
+    "holderChange": 0.502887265849632,
+    "liquidityChange": 1.659938089208147,
+    "buyVolume": 4000000.0,
+    "sellVolume": 4000000.0,
+    "numBuys": 600,
+    "numSells": 400,
+    "numTraders": 200
+   }
+  },
+  {
+   "id": "7YbcuSbRdSM5sA537J912TGBHRPtgNMWq9DzBrxjh2LG",
+   "name": "Test Otter",
+   "symbol": "TO1",
+   "icon": null,
+   "createdAt": "2026-10-21T17:13:07.646530Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 5611,
+   "mcap": 12933639.502110722,
+   "fdv": 12933639.502110722,
+   "usdPrice": 0.012933639502110721,
+   "liquidity": 1671460.5181680263,
+   "firstPool": {
+    "id": "69N85pGgReQqxbGWB1EHR9Pu9wpQoAwP5UNkcErKseYu",
+    "createdAt": "2026-10-21T17:13:07.646530Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 10.766883571175526,
+    "devBalancePercentage": 1.2339272964077375
+   },
+   "organicScore": 87.64505436480125,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 31.23599758636073,
+    "holderChange": 0.2650846594675622,
+    "liquidityChange": -1.4481538866119426,
+    "buyVolume": 3279454.3730181633,
+    "sellVolume": 3015316.4086359874,
+    "numBuys": 5031,
+    "numSells": 3354,
+    "numTraders": 1677
+   }
+  },
+  {
+   "id": "8yP7RzuVNh9Zm9vND8csz9VQMFwC4cMH8SL1JN9BMr5w",
+   "name": "Demo Cat",
+   "symbol": "DC2",
+   "icon": null,
+   "createdAt": "2026-09-08T11:19:27.972631Z",
+   "twitter": null,
+   "website": null,
+   "holderCount": 3832,
+   "mcap": 3024594.5439138906,
+   "fdv": 3024594.5439138906,
+   "usdPrice": 0.0030245945439138907,
+   "liquidity": 642941.1993071842,
+   "firstPool": {
+    "id": "53HudzwSCRWACe4RYdpuioE7JDmJDuDwDTh4hNpz3HXa",
+    "createdAt": "2026-09-08T11:19:27.972631Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 45.52522773551687,
+    "devBalancePercentage": 1.9804654382210223
+   },
+   "organicScore": 68.73902759833493,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 56.58171750708988,
+    "holderChange": 2.141839332994553,
+    "liquidityChange": -8.44759035638409,
+    "buyVolume": 795878.6714513261,
+    "sellVolume": 506656.7074422382,
+    "numBuys": 6582,
+    "numSells": 4388,
+    "numTraders": 2194
+   }
+  },
+  {
+   "id": "76y8gjKr8gbzGKzLzZJk4cLXtuSxedVCxkmGcSpb1tXE",
+   "name": "Fixture Dog",
+   "symbol": "FD3",
+   "icon": null,
+   "createdAt": "2026-07-07T11:07:13.729908Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 14501,
+   "mcap": 2537004.445185259,
+   "fdv": 2537004.445185259,
+   "usdPrice": 0.002537004445185259,
+   "liquidity": 253700.4445185259,
+   "firstPool": {
+    "id": "5g5QybPguHRP76rPoJPykzmujeJvfx6qsAyMMs4xMiSr",
+    "createdAt": "2026-07-07T11:07:13.729908Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 21.59951670768812,
+    "devBalancePercentage": 3.7787243804317496
+   },
+   "organicScore": 73.96393349678578,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 30.178744429576938,
+    "holderChange": 3.6490654383227215,
+    "liquidityChange": -9.548741438888229,
+    "buyVolume": 4000000.0,
+    "sellVolume": 4000000.0,
+    "numBuys": 600,
+    "numSells": 400,
+    "numTraders": 200
+   }
+  },
+  {
+   "id": "Bqxt3ARozTvihpUiktVabWgsXZykUShLv79smx4bGneT",
+   "name": "Mock Panda",
+   "symbol": "MP4",
+   "icon": null,
+   "createdAt": "2026-09-12T17:35:05.604037Z",
+   "twitter": null,
+   "website": null,
+   "holderCount": 12840,
+   "mcap": 4596506.126883381,
+   "fdv": 4596506.126883381,
+   "usdPrice": 0.004596506126883381,
+   "liquidity": 944682.0958402148,
+   "firstPool": {
+    "id": "DfgWg8yJnveweHeUzGgAry2Hm8aZUHm98U4BYb2CCGBL",
+    "createdAt": "2026-09-12T17:35:05.604037Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 22.75224339270092,
+    "devBalancePercentage": 1.9860267961198477
+   },
+   "organicScore": 61.65465129887682,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 4.239717023043397,
+    "holderChange": 1.8115097943401288,
+    "liquidityChange": -5.384969837826357,
+    "buyVolume": 676806.5497727074,
+    "sellVolume": 452420.1850774664,
+    "numBuys": 5676,
+    "numSells": 3784,
+    "numTraders": 1892
+   }
+  },
+  {
+   "id": "4qfusLGLB5bExLN7pMahbgx1p54p5TFDkpbgnUBNRkRJ",
+   "name": "Fake Hamster",
+   "symbol": "FH5",
+   "icon": null,
+   "createdAt": "2026-08-06T02:53:10.033889Z",
+   "twitter": null,
+   "website": null,
+   "holderCount": 1616,
+   "mcap": 9001203.154490933,
+   "fdv": 9001203.154490933,
+   "usdPrice": 0.009001203154490933,
+   "liquidity": 1122152.3210977854,
+   "firstPool": {
+    "id": "EKg4vFShaNrbmSQU12kqL8kk3XqiN2xSPVc5ttVvuf2v",
+    "createdAt": "2026-08-06T02:53:10.033889Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 15.28419751687992,
+    "devBalancePercentage": 1.4770142915789015
+   },
+   "organicScore": 77.65364894825568,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 48.706186572102894,
+    "holderChange": 5.671685478675667,
+    "liquidityChange": 5.957462423931322,
+    "buyVolume": 2625405.9473934676,
+    "sellVolume": 2251930.7055432824,
+    "numBuys": 7755,
+    "numSells": 5170,
+    "numTraders": 2585
+   }
+  },
+  {
+   "id": "5objVZxx8ijiVzKnbndMc9qbVr3bDUQKDVrrGEdEW2Lr",
+   "name": "Dummy Owl",
+   "symbol": "DO6",
+   "icon": null,
+   "createdAt": "2026-08-18T00:54:07.697998Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 14057,
+   "mcap": 54954.32193345039,
+   "fdv": 54954.32193345039,
+   "usdPrice": 5.495432193345039e-05,
+   "liquidity": 10990.864386690078,
+   "firstPool": {
+    "id": "9uuA2wvG8hCDjYSratpGDu34rHCMvQqE68qtSRvFrTzj",
+    "createdAt": "2026-08-18T00:54:07.697998Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 10.648924575006998,
+    "devBalancePercentage": 2.402909042017925
+   },
+   "organicScore": 59.09518390900888,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 55.992122152932424,
+    "holderChange": 2.9674852569315915,
+    "liquidityChange": 2.0455837792401645,
+    "buyVolume": 756946.088952175,
+    "sellVolume": 813319.1790788823,
+    "numBuys": 7710,
+    "numSells": 5140,
+    "numTraders": 2570
+   }
+  },
+  {
+   "id": "DkPzPd8ib2Wn2GE7vxrdVPvts3tLxmriT21KRZW3kp6c",
+   "name": "Placeholder Fox",
+   "symbol": "PF7",
+   "icon": null,
+   "createdAt": "2026-08-06T18:20:34.677530Z",
+   "twitter": null,
+   "website": null,
+   "holderCount": 22865,
+   "mcap": 4953043.787583083,
+   "fdv": 4953043.787583083,
+   "usdPrice": 0.004953043787583083,
+   "liquidity": 517592.94374013325,
+   "firstPool": {
+    "id": "8dcPfWNsBJAZDVVboxcFQcrTmZ7uUhAuaNWuEvPbgCKh",
+    "createdAt": "2026-08-06T18:20:34.677530Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": false,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 20.105268366421413,
+    "devBalancePercentage": 1.9144877740399648
+   },
+   "organicScore": 82.68227075381238,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -3.1719278688348034,
+    "holderChange": 2.6143416327362505,
+    "liquidityChange": 2.8583416139073705,
+    "buyVolume": 603405.8093008145,
+    "sellVolume": 649270.9706087864,
+    "numBuys": 4914,
+    "numSells": 3276,
+    "numTraders": 1638
+   }
+  },
+  {
+   "id": "CrMsjXCsGHwz5ccK7QaLSBinSpPYBTzsyazuMZsfeLAk",
+   "name": "Example Seal",
+   "symbol": "ES8",
+   "icon": null,
+   "createdAt": "2026-08-24T08:19:26.980749Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 15826,
+   "mcap": 3652774.2384064854,
+   "fdv": 3652774.2384064854,
+   "usdPrice": 0.003652774238406485,
+   "liquidity": 628519.7529306202,
+   "firstPool": {
+    "id": "8d2VvRvUsTSmdKoQFNciKYFrdcyccrbwVDtGxnondTAi",
+    "createdAt": "2026-08-24T08:19:26.980749Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 18.546628880095668,
+    "devBalancePercentage": 2.452912891254164
+   },
+   "organicScore": 86.53597056416453,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 59.0643228032763,
+    "holderChange": 4.308256968620431,
+    "liquidityChange": 5.802282732638497,
+    "buyVolume": 432127.2491070295,
+    "sellVolume": 310999.31814765796,
+    "numBuys": 5346,
+    "numSells": 3564,
+    "numTraders": 1782
+   }
+  },
+  {
+   "id": "CY9CNARig2J5fWC7jiZmh2da8q4GcUseaKm8VG1YUjtd",
+   "name": "Pretend Duck",
+   "symbol": "PD9",
+   "icon": null,
+   "createdAt": "2026-08-11T10:34:53.538375Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 28717,
+   "mcap": 1646630.9082799994,
+   "fdv": 1646630.9082799994,
+   "usdPrice": 0.0016466309082799994,
+   "liquidity": 164663.09082799996,
+   "firstPool": {
+    "id": "4HqsC4ie2jRCKXn55nwxASofvDpEKhRAKVwd5YYt7TU6",
+    "createdAt": "2026-08-11T10:34:53.538375Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 14.46953828042799,
+    "devBalancePercentage": 0.8818492919849499
+   },
+   "organicScore": 64.07383306922912,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -22.369936219465792,
+    "holderChange": 0.37694314393522066,
+    "liquidityChange": 3.2117130040978825,
+    "buyVolume": 4000000.0,
+    "sellVolume": 4000000.0,
+    "numBuys": 600,
+    "numSells": 400,
+    "numTraders": 200
+   }
+  },
+  {
+   "id": "Cvy7VSCgVXFfPsaG3bZoaXk2ib9Ts5zquZ6AfZP9KaAT",
+   "name": "Synthetic Goat",
+   "symbol": "SG10",
+   "icon": null,
+   "createdAt": "2026-06-10T03:35:12.339911Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 3972,
+   "mcap": 6735306.105921993,
+   "fdv": 6735306.105921993,
+   "usdPrice": 0.006735306105921993,
+   "liquidity": 1266865.1279105505,
+   "firstPool": {
+    "id": "HmbrBpCRJEJ5v394v446pjxJ5jDuRxdjQYYMWrqSugG1",
+    "createdAt": "2026-06-10T03:35:12.339911Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": false,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 23.192480180970275,
+    "devBalancePercentage": 2.8872989236068274
+   },
+   "organicScore": 73.52642160695399,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 29.02723709609871,
+    "holderChange": 4.203468975630246,
+    "liquidityChange": 2.2314667443201657,
+    "buyVolume": 536950.304064626,
+    "sellVolume": 364819.08473369456,
+    "numBuys": 11922,
+    "numSells": 7948,
+    "numTraders": 3974
+   }
+  },
+  {
+   "id": "FigKD4cS2P3tzs4RqpQFsWyGWvhDNQG1FKtR8wjCKuT8",
+   "name": "Toy Bear",
+   "symbol": "TB11",
+   "icon": null,
+   "createdAt": "2026-07-28T03:20:03.880135Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 29170,
+   "mcap": 2312364.239337976,
+   "fdv": 2312364.239337976,
+   "usdPrice": 0.002312364239337976,
+   "liquidity": 190588.06549243585,
+   "firstPool": {
+    "id": "CPfJosdNuCP8q2C6fdK2WMXb27jLu9HJs4vZdpSBfFHi",
+    "createdAt": "2026-07-28T03:20:03.880135Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 18.74512004510746,
+    "devBalancePercentage": 2.106324188396222
+   },
+   "organicScore": 92.34499220229708,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -6.6571684256810855,
+    "holderChange": 2.0366660573023996,
+    "liquidityChange": -1.6197489449091265,
+    "buyVolume": 821143.7223693663,
+    "sellVolume": 831882.3327868958,
+    "numBuys": 3240,
+    "numSells": 2160,
+    "numTraders": 1080
+   }
+  },
+  {
+   "id": "FAuoU5eaQW443GgnM1tVPhtmi6n3dsZByuHUejcZrJxy",
+   "name": "Model Crab",
+   "symbol": "MC12",
+   "icon": null,
+   "createdAt": "2026-07-12T02:11:06.627054Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 25073,
+   "mcap": 12299686.673303938,
+   "fdv": 12299686.673303938,
+   "usdPrice": 0.012299686673303938,
+   "liquidity": 2064494.3178501271,
+   "firstPool": {
+    "id": "BfjnEn1RenhkpZcR3KTwwKDnFjDnDFAqU5HMAxHYNj5x",
+    "createdAt": "2026-07-12T02:11:06.627054Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": false,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 22.172531705533967,
+    "devBalancePercentage": 0.5230530360884953
+   },
+   "organicScore": 61.07345537051755,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 25.71911152651454,
+    "holderChange": 2.573829085610315,
+    "liquidityChange": -7.593267775107082,
+    "buyVolume": 4372316.720317176,
+    "sellVolume": 4320955.459234997,
+    "numBuys": 7653,
+    "numSells": 5102,
+    "numTraders": 2551
+   }
+  },
+  {
+   "id": "44Sc8Jev8Phtnvk8MM38REtsVsPugySYXQS3nQNcPzWG",
+   "name": "Draft Moose",
+   "symbol": "DM13",
+   "icon": null,
+   "createdAt": "2026-06-24T22:01:18.996108Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 8582,
+   "mcap": 1949197.4897319528,
+   "fdv": 1949197.4897319528,
+   "usdPrice": 0.0019491974897319529,
+   "liquidity": 341597.52808357717,
+   "firstPool": {
+    "id": "FnGZoCgeVKPKQDjvMjAmTK8QadrfCF1xYkGBcQFCsBHo",
+    "createdAt": "2026-06-24T22:01:18.996108Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": false,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 13.153756056971723,
+    "devBalancePercentage": 3.0890443950219533
+   },
+   "organicScore": 75.30855967169282,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 32.34579022934062,
+    "holderChange": 2.9321057065953333,
+    "liquidityChange": -0.9530841547018056,
+    "buyVolume": 615941.7284990831,
+    "sellVolume": 650584.7662653091,
+    "numBuys": 5820,
+    "numSells": 3880,
+    "numTraders": 1940
+   }
+  },
+  {
+   "id": "2cX2JB7V8A2ReY2JYMxoDgh5kfu9Ch2h9gs1QZ8uYQGq",
+   "name": "Proto Llama",
+   "symbol": "PL14",
+   "icon": null,
+   "createdAt": "2026-07-31T17:27:30.724817Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 27799,
+   "mcap": 13189259.002773736,
+   "fdv": 13189259.002773736,
+   "usdPrice": 0.013189259002773736,
+   "liquidity": 3135450.6378504275,
+   "firstPool": {
+    "id": "6yGbD2qphNZ4xqrKBUygUH57XihskCpa8X1CRntmcSZa",
+    "createdAt": "2026-07-31T17:27:30.724817Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 22.39132412634049,
+    "devBalancePercentage": 0.8103541088104182
+   },
+   "organicScore": 72.9011288693948,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -18.988510141280457,
+    "holderChange": 1.9164593953740123,
+    "liquidityChange": 5.538651817209514,
+    "buyVolume": 2470711.344566241,
+    "sellVolume": 1872774.2378418257,
+    "numBuys": 8349,
+    "numSells": 5566,
+    "numTraders": 2783
+   }
+  },
+  {
+   "id": "5XxqRzyy5fus3V5KzsaCpWyUNYzJGE2bG2rY8CYXHudP",
+   "name": "Stub Koala",
+   "symbol": "SK15",
+   "icon": null,
+   "createdAt": "2026-06-11T00:29:37.287256Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 28646,
+   "mcap": 14526153.826929204,
+   "fdv": 14526153.826929204,
+   "usdPrice": 0.014526153826929204,
+   "liquidity": 1704352.6296419024,
+   "firstPool": {
+    "id": "FVErCeFLVTcByJobfTnHPfu2Wv8Tw1Pd95WKVKYDMpth",
+    "createdAt": "2026-06-11T00:29:37.287256Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 42.30638265494649,
+    "devBalancePercentage": 1.9490430999635207
+   },
+   "organicScore": 94.59485818977146,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -28.246536475284614,
+    "holderChange": 4.827112686380633,
+    "liquidityChange": 1.0810049561665593,
+    "buyVolume": 1547225.9796266947,
+    "sellVolume": 1262166.4715668615,
+    "numBuys": 6621,
+    "numSells": 4414,
+    "numTraders": 2207
+   }
+  },
+  {
+   "id": "2LNDKa8qU6v1VAd3aeeFLd9x7e4JHA2sYNwKujMEH3ba",
+   "name": "Trial Wolf",
+   "symbol": "TW16",
+   "icon": null,
+   "createdAt": "2026-09-01T20:10:59.837647Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 27678,
+   "mcap": 263901078.54261482,
+   "fdv": 263901078.54261482,
+   "usdPrice": 0.2639010785426148,
+   "liquidity": 13195053.927130742,
+   "firstPool": {
+    "id": "DTTNgmTwuECYYc4w94T71LmMKP9QnRkGka59MWhZ2XVE",
+    "createdAt": "2026-09-01T20:10:59.837647Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 12.428307805772418,
+    "devBalancePercentage": 3.5055689842933293
+   },
+   "organicScore": 58.362450678814724,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 6.535304512404764,
+    "holderChange": 0.9034432044410503,
+    "liquidityChange": 0.7319778083520383,
+    "buyVolume": 5295754.218917797,
+    "sellVolume": 3658178.304858731,
+    "numBuys": 9288,
+    "numSells": 6192,
+    "numTraders": 3096
+   }
+  },
+  {
+   "id": "DKcr3cnHnhGhbc8HVFZNirH2pMfoqD4NU95sSAfTc9J5",
+   "name": "Beta Lemur",
+   "symbol": "BL17",
+   "icon": null,
+   "createdAt": "2026-10-05T09:19:49.014839Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 3563,
+   "mcap": 10447801.341688802,
+   "fdv": 10447801.341688802,
+   "usdPrice": 0.010447801341688802,
+   "liquidity": 1591240.8587447768,
+   "firstPool": {
+    "id": "AU1xHsZGUGjPUgXR8HQh8P9wL17qWSXUMgGUgup6t7Tm",
+    "createdAt": "2026-10-05T09:19:49.014839Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 45.461339100261995,
+    "devBalancePercentage": 2.537758025186238
+   },
+   "organicScore": 87.06514366285559,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -5.892622799029127,
+    "holderChange": -0.4138023163583736,
+    "liquidityChange": -7.415504002093423,
+    "buyVolume": 3653387.410642899,
+    "sellVolume": 2313731.4114734773,
+    "numBuys": 10476,
+    "numSells": 6984,
+    "numTraders": 3492
+   }
+  },
+  {
+   "id": "4PZ5cEDAC6js6XbWRSd31MNczbEgaNNrCvQbnjfbq86a",
+   "name": "Alpha Shrimp",
+   "symbol": "AS18",
+   "icon": null,
+   "createdAt": "2026-09-06T13:44:46.796169Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 19417,
+   "mcap": 3044731.1263219733,
+   "fdv": 3044731.1263219733,
+   "usdPrice": 0.0030447311263219735,
+   "liquidity": 726113.4803167871,
+   "firstPool": {
+    "id": "CYJEBC1uw1qxjdDWvAWcx9K4fwt5RKANHGwKzCjrN8bq",
+    "createdAt": "2026-09-06T13:44:46.796169Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 16.966287593487454,
+    "devBalancePercentage": 0.8234861877548942
+   },
+   "organicScore": 72.82747492196816,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 16.28114203161342,
+    "holderChange": 3.705100396613026,
+    "liquidityChange": -5.086409608327919,
+    "buyVolume": 440520.310234174,
+    "sellVolume": 441330.6351957936,
+    "numBuys": 11937,
+    "numSells": 7958,
+    "numTraders": 3979
+   }
+  },
+  {
+   "id": "6AQtDVas47G2DPPFbMbPywZRVPRVfyGY6dyY9aEDyrz4",
+   "name": "Zeta Bee",
+   "symbol": "ZB19",
+   "icon": null,
+   "createdAt": "2026-08-04T16:54:52.831510Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 15940,
+   "mcap": 36526.62441461235,
+   "fdv": 36526.62441461235,
+   "usdPrice": 3.652662441461235e-05,
+   "liquidity": 7305.32488292247,
+   "firstPool": {
+    "id": "AEYZDDMgMqZWaXhvJRDFXHhTJ5bWqrYGTxL8xtT9AGZs",
+    "createdAt": "2026-08-04T16:54:52.831510Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 19.31612603536037,
+    "devBalancePercentage": 3.9297621616591885
+   },
+   "organicScore": 68.70818501669898,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 36.68002783646348,
+    "holderChange": 4.826005802851147,
+    "liquidityChange": -4.888122464606061,
+    "buyVolume": 3742306.7792209904,
+    "sellVolume": 3435394.49115293,
+    "numBuys": 5391,
+    "numSells": 3594,
+    "numTraders": 1797
+   }
+  },
+  {
+   "id": "D2Et164XBtWiMWkJUrbSQwkhdPTi8cAH1XGjzd2Erzbv",
+   "name": "Gamma Snail",
+   "symbol": "GS20",
+   "icon": null,
+   "createdAt": "2026-08-03T03:53:21.112038Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 21241,
+   "mcap": 14575577.742727293,
+   "fdv": 14575577.742727293,
+   "usdPrice": 0.014575577742727292,
+   "liquidity": 2649728.2433718382,
+   "firstPool": {
+    "id": "9kYTmKChMgBM5L4H1nq6xuvPPzy4tCiktdBw5ejAJQnY",
+    "createdAt": "2026-08-03T03:53:21.112038Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 9.678562387017863,
+    "devBalancePercentage": 0.7414081143597642
+   },
+   "organicScore": 25.688934470067434,
+   "organicScoreLabel": "low",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 0.17995055277939542,
+    "holderChange": 0.0883600010232457,
+    "liquidityChange": -8.32218878349012,
+    "buyVolume": 2586428.593001761,
+    "sellVolume": 1977229.1789823489,
+    "numBuys": 11832,
+    "numSells": 7888,
+    "numTraders": 3944
+   }
+  },
+  {
+   "id": "9YcCpufsW2mq1V2HJPNKG56TbfJ1826S4NyUVGHe4ThP",
+   "name": "Delta Yak",
+   "symbol": "DY21",
+   "icon": null,
+   "createdAt": "2026-10-12T19:14:50.645006Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 12886,
+   "mcap": 4256862.812704193,
+   "fdv": 4256862.812704193,
+   "usdPrice": 0.004256862812704193,
+   "liquidity": 405500.5683144112,
+   "firstPool": {
+    "id": "G5n7HkTBbKtLYLRZu2u3HDnkKtnWRvFQ75GQ5m9sEBLN",
+    "createdAt": "2026-10-12T19:14:50.645006Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 9.62500436536729,
+    "devBalancePercentage": 0.08997658788103013
+   },
+   "organicScore": 39.31986880064623,
+   "organicScoreLabel": "low",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 58.62561765668666,
+    "holderChange": 0.07681742748586506,
+    "liquidityChange": -7.01073701915494,
+    "buyVolume": 1085304.837796105,
+    "sellVolume": 938348.891114487,
+    "numBuys": 9231,
+    "numSells": 6154,
+    "numTraders": 3077
+   }
+  },
+  {
+   "id": "CB9x5jvUYccrd33y87sQRUJYTmZXno2APrtz5PiUjZrZ",
+   "name": "Omega Tiger",
+   "symbol": "OT22",
+   "icon": null,
+   "createdAt": "2026-07-04T16:24:09.995694Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 21480,
+   "mcap": 7889525.678448744,
+   "fdv": 7889525.678448744,
+   "usdPrice": 0.007889525678448745,
+   "liquidity": 1206873.3618195157,
+   "firstPool": {
+    "id": "33fhuBUkMmfgCsA97RMdRaiEa9WMxRSLH4UTtWFs82iT",
+    "createdAt": "2026-07-04T16:24:09.995694Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 16.583115526211365,
+    "devBalancePercentage": 3.6395506120847845
+   },
+   "organicScore": 39.22372291727295,
+   "organicScoreLabel": "low",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -26.232410878104066,
+    "holderChange": 0.34627197628201145,
+    "liquidityChange": 2.742397540913144,
+    "buyVolume": 2639179.5716754957,
+    "sellVolume": 1604726.4297888991,
+    "numBuys": 8517,
+    "numSells": 5678,
+    "numTraders": 2839
+   }
+  },
+  {
+   "id": "BoCgNZqMKwU24ifeVy9DTK9RN1EVvHWKhvXXfmi2kDzb",
+   "name": "Sigma Mole",
+   "symbol": "SM23",
+   "icon": null,
+   "createdAt": "2026-07-16T23:38:09.977152Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 15444,
+   "mcap": 9542906.300418675,
+   "fdv": 9542906.300418675,
+   "usdPrice": 0.009542906300418675,
+   "liquidity": 1867669.961279955,
+   "firstPool": {
+    "id": "H6FcQQNkRhf3sijw359pWur42ZELhJpua5zB47NL6gSt",
+    "createdAt": "2026-07-16T23:38:09.977152Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 9.04971490691772,
+    "devBalancePercentage": 3.1907902082834103
+   },
+   "organicScore": 84.93061480894823,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 35.6401534235457,
+    "holderChange": 2.5207973665371766,
+    "liquidityChange": -5.895649458358269,
+    "buyVolume": 2264721.902739599,
+    "sellVolume": 2105398.138590056,
+    "numBuys": 1632,
+    "numSells": 1088,
+    "numTraders": 544
+   }
+  },
+  {
+   "id": "99iVFM4tsfz5TT5ucggVKBsr1iDG3QzywDNZfEU7KSWh",
+   "name": "Kappa Hawk",
+   "symbol": "KH24",
+   "icon": null,
+   "createdAt": "2026-10-02T16:18:44.164090Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 2832,
+   "mcap": 13692813.253268374,
+   "fdv": 13692813.253268374,
+   "usdPrice": 0.013692813253268375,
+   "liquidity": 273856.2650653675,
+   "firstPool": {
+    "id": "DPMkJ8DZuoDZkDa7Tkpvsz3AxVpA6XyiSYxRNbaAWXEf",
+    "createdAt": "2026-10-02T16:18:44.164090Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 18.49189264060143,
+    "devBalancePercentage": 0.7931605004510822
+   },
+   "organicScore": 78.98821090085062,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 57.52581082642183,
+    "holderChange": 1.3224105818389496,
+    "liquidityChange": -8.00961856660468,
+    "buyVolume": 3807109.082727656,
+    "sellVolume": 3603213.3104817183,
+    "numBuys": 7794,
+    "numSells": 5196,
+    "numTraders": 2598
+   }
+  },
+  {
+   "id": "B4o61wLnP91dZwXxBCcyGwzv4KFXMaaiWLHUfcs8nHvK",
+   "name": "Lambda Pig",
+   "symbol": "LP25",
+   "icon": null,
+   "createdAt": "2026-08-08T23:34:51.255053Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 26969,
+   "mcap": 7208551.6527345665,
+   "fdv": 7208551.6527345665,
+   "usdPrice": 0.007208551652734567,
+   "liquidity": 721903.9133715634,
+   "firstPool": {
+    "id": "5xgjEPa2AoD4SabzChg2wyREkwVNYU8ftAzwKnxptrHg",
+    "createdAt": "2026-08-08T23:34:51.255053Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 43.91045928381878,
+    "devBalancePercentage": 3.912502947028108
+   },
+   "organicScore": 92.45017363814866,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -11.036208221948467,
+    "holderChange": -0.8774688092833602,
+    "liquidityChange": 1.6294473544214796,
+    "buyVolume": 1518407.7921876423,
+    "sellVolume": 1533514.19800866,
+    "numBuys": 11646,
+    "numSells": 7764,
+    "numTraders": 3882
+   }
+  },
+  {
+   "id": "F3GNj3D2wLfAmgkJsZ6oBqVNpGJf3jmVbUyT81UUh7ox",
+   "name": "Theta Bat",
+   "symbol": "TB26",
+   "icon": null,
+   "createdAt": "2026-07-20T10:12:37.204996Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 4711,
+   "mcap": 9622355.704215672,
+   "fdv": 9622355.704215672,
+   "usdPrice": 0.009622355704215673,
+   "liquidity": 1227105.7527117864,
+   "firstPool": {
+    "id": "2epDF1Lqu3xtt8PEU5z13DJBSHMJoB4tXWxFTJbGojAk",
+    "createdAt": "2026-07-20T10:12:37.204996Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 14.47782788776423,
+    "devBalancePercentage": 1.9915518134148624
+   },
+   "organicScore": 90.04580929462333,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -19.118158104860836,
+    "holderChange": 1.758563639028674,
+    "liquidityChange": -3.373512774446401,
+    "buyVolume": 1016821.6945544983,
+    "sellVolume": 1093062.767786612,
+    "numBuys": 8463,
+    "numSells": 5642,
+    "numTraders": 2821
+   }
+  },
+  {
+   "id": "5B5UmrGyCstuYzd1ZTFdnmnYGsZb6uMzSFn5jLcWJxkH",
+   "name": "Iota Ant",
+   "symbol": "IA27",
+   "icon": null,
+   "createdAt": "2026-10-18T05:51:17.973153Z",
+   "twitter": "https://x.com/example",
+   "website": null,
+   "holderCount": 12108,
+   "mcap": 13562871.821244463,
+   "fdv": 13562871.821244463,
+   "usdPrice": 0.013562871821244464,
+   "liquidity": 1753294.1819662561,
+   "firstPool": {
+    "id": "GizmDajVW74faHK2tDG2WmMaEF6qBenEaptcv9BfYNZz",
+    "createdAt": "2026-10-18T05:51:17.973153Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 14.893490730616568,
+    "devBalancePercentage": 3.9951700231424545
+   },
+   "organicScore": 78.56706621539612,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": -7.560775522936332,
+    "holderChange": 1.5249652674638359,
+    "liquidityChange": -4.685439700448404,
+    "buyVolume": 2710112.201001921,
+    "sellVolume": 1998918.1242521266,
+    "numBuys": 1434,
+    "numSells": 956,
+    "numTraders": 478
+   }
+  },
+  {
+   "id": "7UXXTrAsLfoMaaTENmVp9qTufAfJBWv2KLKZNYvNoN2r",
+   "name": "Rho Eel",
+   "symbol": "RE28",
+   "icon": null,
+   "createdAt": "2026-06-10T19:38:31.113967Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 27532,
+   "mcap": 12254649.105073275,
+   "fdv": 12254649.105073275,
+   "usdPrice": 0.012254649105073276,
+   "liquidity": 245092.98210146552,
+   "firstPool": {
+    "id": "5MDAqzZ7e8m2S4EFUxEAeeD7zTkJFDB2Y7FzAWLU8bC9",
+    "createdAt": "2026-06-10T19:38:31.113967Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 23.110489475073624,
+    "devBalancePercentage": 2.196912592751855
+   },
+   "organicScore": 83.78290327804592,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 53.409934189243145,
+    "holderChange": -0.6536677588950289,
+    "liquidityChange": -7.453773592298807,
+    "buyVolume": 3753885.3379955287,
+    "sellVolume": 3098570.3684147727,
+    "numBuys": 9252,
+    "numSells": 6168,
+    "numTraders": 3084
+   }
+  },
+  {
+   "id": "GFiguAZCGxawF6bBrcbCLEb9MyG5BUBTyDELgrWEzf76",
+   "name": "Tau Gecko",
+   "symbol": "TG29",
+   "icon": null,
+   "createdAt": "2026-07-01T08:05:09.507829Z",
+   "twitter": "https://x.com/example",
+   "website": "https://example.com",
+   "holderCount": 8301,
+   "mcap": 9931140.243995696,
+   "fdv": 9931140.243995696,
+   "usdPrice": 0.009931140243995697,
+   "liquidity": 1480291.8201614865,
+   "firstPool": {
+    "id": "F88N9gY18JfYBKLMQAYjh4rJZRGGYsQfkGJSUdGkrNty",
+    "createdAt": "2026-07-01T08:05:09.507829Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 16.247730369566572,
+    "devBalancePercentage": 2.675503951143258
+   },
+   "organicScore": 59.78970085600986,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 38.332307193401746,
+    "holderChange": 3.502435230699172,
+    "liquidityChange": -1.4515395254498635,
+    "buyVolume": 757842.4077350347,
+    "sellVolume": 644395.215363637,
+    "numBuys": 9909,
+    "numSells": 6606,
+    "numTraders": 3303
+   }
+  },
+  {
+   "id": "BofRXjq8TkyYztqBWkhzyKhS6G6pt4e5zzXwH9zYN15L",
+   "name": "Nu Bison",
+   "symbol": "NB30",
+   "icon": null,
+   "createdAt": "2025-09-06T11:50:35.048432Z",
+   "twitter": null,
+   "website": "https://example.com",
+   "holderCount": 17734,
+   "mcap": 3891248.0784748327,
+   "fdv": 3891248.0784748327,
+   "usdPrice": 0.003891248078474833,
+   "liquidity": 482206.5226871709,
+   "firstPool": {
+    "id": "4mPRX8cAzZ6p2JVJYwTmG9MXyJzCG6xoq6tHLwYYv82N",
+    "createdAt": "2025-09-06T11:50:35.048432Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 22.308771888175798,
+    "devBalancePercentage": 2.998630430418715
+   },
+   "organicScore": 71.51126634563144,
+   "organicScoreLabel": "high",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 15.305617285000622,
+    "holderChange": 1.897185006893305,
+    "liquidityChange": 2.592538116918785,
+    "buyVolume": 908446.3013207428,
+    "sellVolume": 716248.9580490157,
+    "numBuys": 4653,
+    "numSells": 3102,
+    "numTraders": 1551
+   }
+  },
+  {
+   "id": "HU3J5GAzwBRGpVKU1UXknqj7cFdf2j5zeQaewWGvmEWU",
+   "name": "Xi Puffin",
+   "symbol": "XP31",
+   "icon": null,
+   "createdAt": "2026-10-21T16:06:03.991366Z",
+   "twitter": null,
+   "website": null,
+   "holderCount": 10392,
+   "mcap": 9828559.006076548,
+   "fdv": 9828559.006076548,
+   "usdPrice": 0.009828559006076548,
+   "liquidity": 1507821.221018819,
+   "firstPool": {
+    "id": "63J6AiXFZKfAfEjtdNwt2tGPdpuQ64rc3vpdmii8569Y",
+    "createdAt": "2026-10-21T16:06:03.991366Z"
+   },
+   "audit": {
+    "mintAuthorityDisabled": true,
+    "freezeAuthorityDisabled": true,
+    "topHoldersPercentage": 21.21508449385587,
+    "devBalancePercentage": 3.8721615380588323
+   },
+   "organicScore": 60.08988083369836,
+   "organicScoreLabel": "medium",
+   "isVerified": false,
+   "tags": [
+    "community"
+   ],
+   "stats24h": {
+    "priceChange": 17.50752737366885,
+    "holderChange": 1.9763991532220127,
+    "liquidityChange": -0.6369715970395333,
+    "buyVolume": 3118520.8748729303,
+    "sellVolume": 3125146.590082073,
+    "numBuys": 11646,
+    "numSells": 7764,
+    "numTraders": 3882
+   }
+  }
+ ],
+ "rug": {
+  "EPazv15WDD955DLS2FDVYB2dzaEcLLYkNBembW23JtK8": {
+   "score_normalised": 24.286653882698502,
+   "risks": []
+  },
+  "7YbcuSbRdSM5sA537J912TGBHRPtgNMWq9DzBrxjh2LG": {
+   "score_normalised": 24.171056299834525,
+   "risks": []
+  },
+  "8yP7RzuVNh9Zm9vND8csz9VQMFwC4cMH8SL1JN9BMr5w": {
+   "score_normalised": 10.773673627525064,
+   "risks": []
+  },
+  "76y8gjKr8gbzGKzLzZJk4cLXtuSxedVCxkmGcSpb1tXE": {
+   "score_normalised": 39.758357881332195,
+   "risks": []
+  },
+  "Bqxt3ARozTvihpUiktVabWgsXZykUShLv79smx4bGneT": {
+   "score_normalised": 24.257684348111876,
+   "risks": []
+  },
+  "4qfusLGLB5bExLN7pMahbgx1p54p5TFDkpbgnUBNRkRJ": {
+   "score_normalised": 28.667002885732547,
+   "risks": [
+    {
+     "name": "Low amount of LP Providers",
+     "level": "warn",
+     "score": 400
+    }
+   ]
+  },
+  "5objVZxx8ijiVzKnbndMc9qbVr3bDUQKDVrrGEdEW2Lr": {
+   "score_normalised": 7.4610451653721395,
+   "risks": []
+  },
+  "DkPzPd8ib2Wn2GE7vxrdVPvts3tLxmriT21KRZW3kp6c": {
+   "score_normalised": 29.152365505777556,
+   "risks": []
+  },
+  "CrMsjXCsGHwz5ccK7QaLSBinSpPYBTzsyazuMZsfeLAk": {
+   "score_normalised": 33.11641225916059,
+   "risks": [
+    {
+     "name": "Low amount of LP Providers",
+     "level": "warn",
+     "score": 400
+    }
+   ]
+  },
+  "CY9CNARig2J5fWC7jiZmh2da8q4GcUseaKm8VG1YUjtd": {
+   "score_normalised": 34.415243454775144,
+   "risks": []
+  },
+  "Cvy7VSCgVXFfPsaG3bZoaXk2ib9Ts5zquZ6AfZP9KaAT": {
+   "score_normalised": 5.964209774809138,
+   "risks": []
+  },
+  "FigKD4cS2P3tzs4RqpQFsWyGWvhDNQG1FKtR8wjCKuT8": {
+   "score_normalised": 13.814218397790883,
+   "risks": [
+    {
+     "name": "Low amount of LP Providers",
+     "level": "warn",
+     "score": 400
+    }
+   ]
+  },
+  "FAuoU5eaQW443GgnM1tVPhtmi6n3dsZByuHUejcZrJxy": {
+   "score_normalised": 32.16136379518335,
+   "risks": []
+  },
+  "44Sc8Jev8Phtnvk8MM38REtsVsPugySYXQS3nQNcPzWG": {
+   "score_normalised": 26.438475952056113,
+   "risks": []
+  },
+  "2cX2JB7V8A2ReY2JYMxoDgh5kfu9Ch2h9gs1QZ8uYQGq": {
+   "score_normalised": 78,
+   "risks": [
+    {
+     "name": "Single holder ownership",
+     "level": "danger",
+     "score": 5000
+    }
+   ]
+  },
+  "5XxqRzyy5fus3V5KzsaCpWyUNYzJGE2bG2rY8CYXHudP": {
+   "score_normalised": 16.869065051858698,
+   "risks": []
+  },
+  "2LNDKa8qU6v1VAd3aeeFLd9x7e4JHA2sYNwKujMEH3ba": {
+   "score_normalised": 33.692204391799095,
+   "risks": []
+  },
+  "DKcr3cnHnhGhbc8HVFZNirH2pMfoqD4NU95sSAfTc9J5": {
+   "score_normalised": 20.88207323405237,
+   "risks": []
+  },
+  "4PZ5cEDAC6js6XbWRSd31MNczbEgaNNrCvQbnjfbq86a": {
+   "score_normalised": 6.293227304049685,
+   "risks": [
+    {
+     "name": "Low amount of LP Providers",
+     "level": "warn",
+     "score": 400
+    }
+   ]
+  },
+  "6AQtDVas47G2DPPFbMbPywZRVPRVfyGY6dyY9aEDyrz4": {
+   "score_normalised": 17.16432630543312,
+   "risks": []
+  },
+  "D2Et164XBtWiMWkJUrbSQwkhdPTi8cAH1XGjzd2Erzbv": {
+   "score_normalised": 16.323686305847964,
+   "risks": []
+  },
+  "9YcCpufsW2mq1V2HJPNKG56TbfJ1826S4NyUVGHe4ThP": {
+   "score_normalised": 28.014028565943544,
+   "risks": []
+  },
+  "CB9x5jvUYccrd33y87sQRUJYTmZXno2APrtz5PiUjZrZ": {
+   "score_normalised": 32.9288515541631,
+   "risks": []
+  },
+  "BoCgNZqMKwU24ifeVy9DTK9RN1EVvHWKhvXXfmi2kDzb": {
+   "score_normalised": 30.787591498978767,
+   "risks": [
+    {
+     "name": "Low amount of LP Providers",
+     "level": "warn",
+     "score": 400
+    }
+   ]
+  },
+  "99iVFM4tsfz5TT5ucggVKBsr1iDG3QzywDNZfEU7KSWh": {
+   "score_normalised": 9.670435305211113,
+   "risks": []
+  },
+  "B4o61wLnP91dZwXxBCcyGwzv4KFXMaaiWLHUfcs8nHvK": {
+   "score_normalised": 20.73078393778833,
+   "risks": []
+  },
+  "F3GNj3D2wLfAmgkJsZ6oBqVNpGJf3jmVbUyT81UUh7ox": {
+   "score_normalised": 19.18967653489326,
+   "risks": []
+  },
+  "5B5UmrGyCstuYzd1ZTFdnmnYGsZb6uMzSFn5jLcWJxkH": {
+   "score_normalised": 8.55984502886692,
+   "risks": []
+  },
+  "7UXXTrAsLfoMaaTENmVp9qTufAfJBWv2KLKZNYvNoN2r": {
+   "score_normalised": 27.55717486464798,
+   "risks": []
+  },
+  "GFiguAZCGxawF6bBrcbCLEb9MyG5BUBTyDELgrWEzf76": {
+   "score_normalised": 78,
+   "risks": [
+    {
+     "name": "Single holder ownership",
+     "level": "danger",
+     "score": 5000
+    }
+   ]
+  },
+  "BofRXjq8TkyYztqBWkhzyKhS6G6pt4e5zzXwH9zYN15L": {
+   "score_normalised": 7.172083127760189,
+   "risks": []
+  },
+  "HU3J5GAzwBRGpVKU1UXknqj7cFdf2j5zeQaewWGvmEWU": {
+   "score_normalised": 22.143852673517568,
+   "risks": []
+  }
+ },
+ "dex": {
+  "EPazv15WDD955DLS2FDVYB2dzaEcLLYkNBembW23JtK8": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": true
+  },
+  "7YbcuSbRdSM5sA537J912TGBHRPtgNMWq9DzBrxjh2LG": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "8yP7RzuVNh9Zm9vND8csz9VQMFwC4cMH8SL1JN9BMr5w": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "76y8gjKr8gbzGKzLzZJk4cLXtuSxedVCxkmGcSpb1tXE": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": true
+  },
+  "Bqxt3ARozTvihpUiktVabWgsXZykUShLv79smx4bGneT": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "4qfusLGLB5bExLN7pMahbgx1p54p5TFDkpbgnUBNRkRJ": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": true
+  },
+  "5objVZxx8ijiVzKnbndMc9qbVr3bDUQKDVrrGEdEW2Lr": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 1,
+   "communityTakeover": false
+  },
+  "DkPzPd8ib2Wn2GE7vxrdVPvts3tLxmriT21KRZW3kp6c": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "CrMsjXCsGHwz5ccK7QaLSBinSpPYBTzsyazuMZsfeLAk": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "CY9CNARig2J5fWC7jiZmh2da8q4GcUseaKm8VG1YUjtd": {
+   "socials": [],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "Cvy7VSCgVXFfPsaG3bZoaXk2ib9Ts5zquZ6AfZP9KaAT": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "FigKD4cS2P3tzs4RqpQFsWyGWvhDNQG1FKtR8wjCKuT8": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "FAuoU5eaQW443GgnM1tVPhtmi6n3dsZByuHUejcZrJxy": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "44Sc8Jev8Phtnvk8MM38REtsVsPugySYXQS3nQNcPzWG": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "2cX2JB7V8A2ReY2JYMxoDgh5kfu9Ch2h9gs1QZ8uYQGq": {
+   "socials": [],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "5XxqRzyy5fus3V5KzsaCpWyUNYzJGE2bG2rY8CYXHudP": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 1,
+   "communityTakeover": false
+  },
+  "2LNDKa8qU6v1VAd3aeeFLd9x7e4JHA2sYNwKujMEH3ba": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "DKcr3cnHnhGhbc8HVFZNirH2pMfoqD4NU95sSAfTc9J5": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": true
+  },
+  "4PZ5cEDAC6js6XbWRSd31MNczbEgaNNrCvQbnjfbq86a": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "6AQtDVas47G2DPPFbMbPywZRVPRVfyGY6dyY9aEDyrz4": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 1,
+   "communityTakeover": false
+  },
+  "D2Et164XBtWiMWkJUrbSQwkhdPTi8cAH1XGjzd2Erzbv": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "9YcCpufsW2mq1V2HJPNKG56TbfJ1826S4NyUVGHe4ThP": {
+   "socials": [],
+   "boostsActive": 0,
+   "communityTakeover": true
+  },
+  "CB9x5jvUYccrd33y87sQRUJYTmZXno2APrtz5PiUjZrZ": {
+   "socials": [],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "BoCgNZqMKwU24ifeVy9DTK9RN1EVvHWKhvXXfmi2kDzb": {
+   "socials": [],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "99iVFM4tsfz5TT5ucggVKBsr1iDG3QzywDNZfEU7KSWh": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "B4o61wLnP91dZwXxBCcyGwzv4KFXMaaiWLHUfcs8nHvK": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "F3GNj3D2wLfAmgkJsZ6oBqVNpGJf3jmVbUyT81UUh7ox": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "5B5UmrGyCstuYzd1ZTFdnmnYGsZb6uMzSFn5jLcWJxkH": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "7UXXTrAsLfoMaaTENmVp9qTufAfJBWv2KLKZNYvNoN2r": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "GFiguAZCGxawF6bBrcbCLEb9MyG5BUBTyDELgrWEzf76": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "BofRXjq8TkyYztqBWkhzyKhS6G6pt4e5zzXwH9zYN15L": {
+   "socials": [],
+   "boostsActive": 0,
+   "communityTakeover": false
+  },
+  "HU3J5GAzwBRGpVKU1UXknqj7cFdf2j5zeQaewWGvmEWU": {
+   "socials": [
+    "twitter"
+   ],
+   "boostsActive": 0,
+   "communityTakeover": false
+  }
+ }
+}
