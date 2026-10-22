@@ -5,21 +5,21 @@ import { useState } from 'react';
 
 const KEY = 'shortlist-passcode';
 
-function getPasscode(): string | null {
-  let code: string | null = null;
+function savedPasscode(): string | null {
   try {
-    code = localStorage.getItem(KEY);
+    return localStorage.getItem(KEY);
   } catch {
-    // private mode etc.
+    return null; // private mode etc.
   }
-  if (!code) {
-    code = window.prompt('Passcode (the APP_PASSCODE you set in Vercel):');
-    if (code) {
-      try {
-        localStorage.setItem(KEY, code);
-      } catch {
-        // fine, we'll just ask again next time
-      }
+}
+
+function askPasscode(): string | null {
+  const code = window.prompt('Passcode (the APP_PASSCODE you set in Vercel):');
+  if (code) {
+    try {
+      localStorage.setItem(KEY, code);
+    } catch {
+      // fine, we'll just ask again next time
     }
   }
   return code;
@@ -34,13 +34,20 @@ function forgetPasscode() {
 }
 
 async function call(path: string, body?: unknown): Promise<{ ok: boolean; error?: string }> {
-  const code = getPasscode();
-  if (!code) return { ok: false };
-  const res = await fetch(path, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'x-passcode': code },
-    body: body ? JSON.stringify(body) : undefined,
-  });
+  const send = (code: string | null) =>
+    fetch(path, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...(code ? { 'x-passcode': code } : {}) },
+      body: body ? JSON.stringify(body) : undefined,
+    });
+  // Try first without asking: if no APP_PASSCODE is set in Vercel, none is needed.
+  let res = await send(savedPasscode());
+  if (res.status === 401) {
+    forgetPasscode();
+    const code = askPasscode();
+    if (!code) return { ok: false };
+    res = await send(code);
+  }
   const data = (await res.json().catch(() => ({}))) as { error?: string };
   if (res.status === 401) forgetPasscode();
   return res.ok ? { ok: true } : { ok: false, error: data.error ?? `Error ${res.status}` };

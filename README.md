@@ -29,8 +29,8 @@ npx vercel --prod
 ### 2. Add storage (where the scans are saved)
 Vercel → your project → **Storage → Create → Blob** → pick **Private** → connect it to the project for all environments. Vercel adds the keys for you.
 
-### 3. Set two secrets
-Vercel → project → **Settings → Environment Variables**:
+### 3. Set two secrets (optional)
+Without these it still works: the daily scan runs, and the buttons need no passcode (so anyone with your URL can use them). To lock it down, go to Vercel → project → **Settings → Environment Variables**:
 - `CRON_SECRET`: any random 16+ characters (mash the keyboard).
 - `APP_PASSCODE`: a short code you'll type once on your phone.
 
